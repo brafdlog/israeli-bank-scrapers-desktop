@@ -54,6 +54,7 @@ module.exports = {
           icon: 'build/icons',
         },
       },
+      nodeIntegration: true,
     },
     mainProcessWatch: [
       'src/service',
