@@ -69,10 +69,10 @@
 
 <script>
 import { shell } from 'electron';
-import Importers from '@/components/MainPage/Importers';
-import DataTable from '@/components/MainPage/DataTable';
-import Exporters from '@/components/MainPage/Exporters';
-import ProfileChip from '@/components/MainPage/ProfileChip';
+import Importers from '@/renderer/components/MainPage/Importers';
+import DataTable from '@/renderer/components/MainPage/DataTable';
+import Exporters from '@/renderer/components/MainPage/Exporters';
+import ProfileChip from '@/renderer/components/MainPage/ProfileChip';
 import ReportProblemDialog from './MainPage/ReportProblemDialog';
 
 export default {

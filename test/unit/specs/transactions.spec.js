@@ -1,4 +1,4 @@
-import { getHash } from 'modules/transactions';
+import { getHash } from '@/modules/transactions';
 import { Transactions } from '../helpers/baseStore';
 
 describe('transaction.js (The transactions helper)', () => {

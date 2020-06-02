@@ -33,7 +33,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import { format, properties } from '../../modules/transactions';
+import { format, properties } from '@/modules/transactions';
 
 const detailes = properties.map((prop) => ({
   text: prop.title,

@@ -1,4 +1,4 @@
-import { properties, transactionArrayToObject } from '../../modules/transactions';
+import { properties, transactionArrayToObject } from '../../../modules/transactions';
 
 const state = {
   transactions: {},

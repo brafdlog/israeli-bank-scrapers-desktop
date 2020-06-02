@@ -61,7 +61,7 @@ import { mapActions } from 'vuex';
 import { remote } from 'electron';
 import { decryptProperty } from '@/modules/encryption/credentials';
 import { scrape } from '@/modules/scrapers';
-import DeleteImporterDialog from '@/components/MainPage/Importers/DeleteImporterDialog';
+import DeleteImporterDialog from '@/renderer/components/MainPage/Importers/DeleteImporterDialog';
 
 export default {
   components: {
